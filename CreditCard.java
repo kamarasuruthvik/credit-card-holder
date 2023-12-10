@@ -1,11 +1,11 @@
 public abstract class CreditCard {
-    String Number;
+    String creditCardNumber;
     String expirationDate;
     String cardHolderName;
     String CreditCardName;
 
 
-    public void printCardName(){
-        System.out.println(CreditCardName);
+    public String getCreditCardName(){
+        return CreditCardName;
     }
 }
